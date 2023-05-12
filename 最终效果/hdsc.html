@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Web3</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .shell {
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    
+    .shell div {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    
+    .image {
+        transform: translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    
+    .text {
+        height: 50vh;
+        background-color: #fff;
+    }
+    
+    .text h1 {
+        color: #000;
+    }
+    
+    .heading {
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+        top: -300px;
+    }
+    
+    .CHAPTER {
+        left: 250px;
+        top: 357px;
+        width: 730px;
+        height: 40px;
+        mix-blend-mode: normal;
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        line-height: 83px;
+        font-weight: 400;
+    }
+    
+    .bot {
+        color: rgba(133, 255, 0, 1);
+        top: -300px;
+    }
+    
+    .triangle {
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        font-size: 0;
+        line-height: 0;
+        border-color: rgba(133, 255, 0, 1) transparent transparent transparent;
+        border-style: solid dashed dashed dashed;
+        border-width: 40px;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="shell">
+        <!-- <audio src="./audio/1.mp3" controls autoplay></audio> -->
+        <div class="image" style="background-image:url('image/1.jpg');"></div>
+        <div>
+            <div class="CHAPTER">
+                <h1>TCHAPTER 4</h1>
+            </div>
+            <div class="heading">
+                <h1>THE</h1>
+            </div>
+            <div class="heading">
+                <h1>MARS RANGER</h1>
+            </div>
+        </div>
+        <div class="bot">
+            <a class="triangle" href="#slide"></a>
+        </div>
+        <div class="bot">
+            <a class="bot" href="#slide">SCROLL UP TO READ</a>
+        </div>
+        <div class="text">
+            <a name="slide"></a>
+        </div>
+        <div class="text">
+            <h1>Set goals in your mind</h1>
+        </div>
+    </div>
+</body>
+
+</html>
